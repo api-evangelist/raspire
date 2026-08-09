@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raspire.png
 name: Raspire
-description: >-
-  Raspire (RASPIRE) provides runtime security for mobile applications, positioning
-  itself as the first line of defense for Android and iOS apps against AI-powered
-  fraud attacks, API abuse, and runtime threats. Developers upload compiled apps
-  (APK/IPA) and Raspire automatically hardens them with anti-fraud protection, app
-  integrity verification, reverse-engineering prevention, and API protection, without
-  requiring changes to application source code. The platform gives security teams
-  real-time visibility into threats and blocks attacks in real time, and can integrate
-  with existing SIEM systems and application monitoring platforms as part of a CI/CD
-  pipeline. Raspire is a Y Combinator company. As surfaced to the API Evangelist
-  network it does not publish a public developer API, OpenAPI specification, or SDKs;
+description: Raspire (RASPIRE) provides runtime security for mobile applications, positioning itself as
+  the first line of defense for Android and iOS apps against AI-powered fraud attacks, API abuse, and
+  runtime threats. Developers upload compiled apps (APK/IPA) and Raspire automatically hardens them with
+  anti-fraud protection, app integrity verification, reverse-engineering prevention, and API protection,
+  without requiring changes to application source code. The platform gives security teams real-time visibility
+  into threats and blocks attacks in real time, and can integrate with existing SIEM systems and application
+  monitoring platforms as part of a CI/CD pipeline. Raspire is a Y Combinator company. As surfaced to
+  the API Evangelist network it does not publish a public developer API, OpenAPI specification, or SDKs;
   this profile captures its identity and probed domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/raspire/refs/heads/main/apis.yml
 x-type: company
@@ -33,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 tags:
 - Company
 - Security
@@ -57,6 +54,14 @@ common:
   url: https://raspire.com/
 - type: DomainSecurity
   url: security/raspire-domain-security.yml
+- type: Blog
+  url: https://raspire.com/blog
+- type: Support
+  url: https://raspire.com/support
+- type: GitHubOrganization
+  url: https://github.com/RASPIRE-inc
+- type: LLMsTxt
+  url: llms/raspire-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -67,3 +72,5 @@ x-enrichment:
   status: enriched
   artifacts_added: 3
   pass: local-v1
+x-merged-from:
+- raspire-inc

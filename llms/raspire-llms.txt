@@ -1,0 +1,15 @@
+This file is generated from the site's source content. It is a curated index for AI assistants, not a crawler permissions file. For crawler permissions, see `/robots.txt`.
+
+## Core Pages
+
+- [Home](https://raspire.com/): Primary overview of the site.
+
+## Public Content
+
+- [What's new in RASPIRE SHIELD 2.0](https://raspire.com/introducing-shield-20): Discover what's new in SHIELD 2.0, the latest release of the RASPIRE XTD platform, featuring enhanced runtime protection, improved threat visibility, and stronger autonomous response capabilities for Android and iOS applications.
+- [Android Overlay Attacks: The Mobile Banking Threat No One Sees Coming](https://raspire.com/android-overlay-attacks-the-mobile-banking-threat-no-one-sees-coming): Android overlay attacks exploit invisible UI layers to steal credentials and manipulate mobile banking transactions.
+
+## Discovery
+
+- [Sitemap](https://raspire.com/sitemap-index.xml): Complete search-engine sitemap, if available.
+- [Robots policy](https://raspire.com/robots.txt): Crawler permissions for automated agents.
